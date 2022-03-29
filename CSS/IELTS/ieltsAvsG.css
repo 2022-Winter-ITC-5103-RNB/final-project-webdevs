@@ -1,0 +1,205 @@
+body{
+    background-color: white;
+    box-shadow: 0 0 5px ;
+}
+
+h1{
+    font-family: 'Andada Pro', serif;
+    font-size: 30px;
+}
+
+p,h3,ul li, ol li{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header{
+    background-color:#89a8da;
+    text-align: center;
+    height:80px;
+}
+
+.title{
+    color:#0c1b54;
+    padding:10px;
+}
+
+.navbar{
+    background-color: #0c1b54;
+    padding: 7px;
+    width:auto;
+}
+
+.navbar ul{
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.navbar li{
+    list-style-type: none;
+    padding:10px 0px;
+}
+
+.navbar li a{
+    padding: 15px 0px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    width: 11%;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    padding:0.7em 0px;
+}
+
+.navbar li a:hover{
+    color:#82eefd;
+}
+
+main{
+    display: flex;
+}
+
+.sidenav{
+    display: none;
+}
+
+.wrap1{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.content{
+    margin-left: 10px;
+    background-color: white;
+    width: auto;
+}
+
+.PageTitle{
+    width:auto;
+    color:purple;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.container1, .section2{
+    font-size: 25px;
+    font-weight: 550;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.AvsGieltsImg{
+    box-shadow: 0 0 10px;
+    margin-left: 20px;
+}
+
+.subheading{
+    color: rgb(0, 57, 133);
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+#sub1{
+    color:rgb(199, 3, 3);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer{
+    display: inline-block;
+    background-color: #89a8da;
+    color:#0c1b54;
+    text-align: center;
+}
+
+@media only screen and (min-width : 768px){
+
+    main{
+        display: flex;
+    }
+
+    .navbar ul{
+        display: inline;
+    }
+
+    .navbar{
+        height: 3em;
+    }
+
+    .navbar li{
+        display: inline;
+    }
+
+    .navbar li a {
+        display: inline-block;
+    }
+
+    .sidenav {
+        display: block;
+        height: 570px;
+        width:570px;
+        background-color: #a1c6e0;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+
+    .sidenav ul{
+        list-style-type: none;
+    }
+
+    .sidenav a {
+        padding: 10px 7px ;
+        text-decoration: none;
+        font-weight: bold;
+        color: #0c1b54;
+        display: block;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 1em;
+    }
+
+    .sidenav a:hover {
+        color: #800080;
+    }
+
+    .wrap1{
+        overflow: auto ;
+        height:590px;
+    }
+
+    .section1,.section2{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .container1{
+        padding-left: 60px;
+        padding-right: 20px;
+    }
+
+}
+
+@media only screen and (min-width : 1024px){
+
+    .section1{
+        display: flex;
+    }
+
+    .AvsGieltsImg{
+        width: 30%;
+        height: 600px;
+    }
+
+}
+
+
+
