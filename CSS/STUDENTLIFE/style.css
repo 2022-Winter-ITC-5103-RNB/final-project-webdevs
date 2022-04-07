@@ -1,0 +1,101 @@
+/*common style for mobile and desktop */
+
+body{
+    background-color: #fdd7d25b;
+    box-shadow: 0 0 10px;
+}
+
+h1{
+    font-family: 'Andada Pro', serif;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 20px;
+}
+
+h2{
+    color:#ff0000;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+p,h3, ul li, ol li{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+}
+
+header{
+    background-color:#8a0202;
+    text-align: center;
+    height:80px;
+}
+
+.sidebar{
+    background-color: #f19595;
+    padding: 10px;
+}
+
+.sidebar ul{
+    list-style-type: none;
+    margin:10px;
+    font-weight: bold;
+    color: #520000;
+}
+
+.sidebar li{
+    list-style-type: none;
+    margin:10px;
+    color: #520000;
+}
+
+.sidebar li a{
+    text-decoration: none;
+    color:#520000;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+
+/*link hover effect in side bar link*/
+.sidebar li a:hover{
+    color:#ffffff;
+}
+
+/*hiding subpages in side bar for mobile view*/
+.sub{
+    display: none;
+}
+
+.content{
+    padding: 90px;
+    font-size: 1cm;
+}
+
+footer{
+    display: inline-block;
+    background-color: #8a0202;
+    color:#ffffff;
+    width: 100%;
+    text-align: center;
+}
+
+/*making changes for desktop view*/
+
+@media screen and (min-width:1006px){
+
+    main{
+        display: flex;
+    }
+
+    /*displaying subpages which were hidden for mobile view*/
+    .sub {
+        display: block;
+    }
+
+    .sidebar{
+        width:30%;
+    }
+
+}
+
+
+

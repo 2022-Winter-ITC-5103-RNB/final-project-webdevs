@@ -1,44 +1,66 @@
+// import { config } from '@fortawesome/fontawesome-svg-core'
+// import { config } from '@fortawesome/fontawesome-svg-core'
 
-    //defining array
-const tasks = [];
+const todoInput = document.querySelector(".todo-input");
+const todoButton=document.querySelector(".todo-button");
+const todoList=document.querySelector(".todo-list");
 
-//function for adding the tasks
-function addTask() {
-    let taskname=document.querySelector('#Task').value
-    if( taskname !='')
-    {
-        tasks.push(taskname);   //pushing value in array
-        displayTask();          //displaying tasks after adding
-    }
+//Event Listener
+todoButton.addEventListener("click", addToDo);
+todoList.addEventListener("click", checkDelete);
+
+//functions
+function addToDo(event){
+
+    //prevent page form refreshing by preventing form submission
+    event.preventDefault();
+
+    //creating DIV for todo
+    const todoDIV= document.createElement('div');
+    todoDIV.classList.add("todo");
+
+    //create LI inside DIV
+    const newToDo=document.createElement('li');
+    newToDo.innerText=todoInput.value;
+    newToDo.classList.add("todo-item");
+    todoDIV.appendChild(newToDo);
+
+    //creating check button
+    const checkButton= document.createElement('button');
+    checkButton.innerHTML='<i class="fa-solid fa-check"></i>';
+    checkButton.classList.add("chk-btn");
+    todoDIV.appendChild(checkButton);
+
+    //creating delete button
+    const deleteButton= document.createElement('button');
+    deleteButton.innerHTML='<i class="fa-solid fa-trash"></i>'
+    deleteButton.classList.add("del-btn");
+    todoDIV.appendChild(deleteButton);
+
+    todoList.appendChild(todoDIV);
+
+    //clearing input field
+    todoInput.value="";
 }
 
-//displaying tasks
-function displayTask(){
-    if (tasks.length!==0)
-    {
-        let display = '', tList='';
-        for (let i of tasks) {
-            display += '<li>' + i + '</li>';
-            document.querySelector('#taskList').innerHTML = display;
-            tList+='<option>' + i + '</option>'
-            document.querySelector('#deleteTask').innerHTML = tList;
-            document.querySelector('#Task').value='';
-        }
+function checkDelete(event){
+
+    const item= event.target;
+
+    //for delete
+    if(item.classList[0]==='del-btn'){
+        const todo=item.parentElement;
+        //animation
+        todo.classList.add('fall');
+        //when animation completes
+        todo.addEventListener('transitionend',function(){
+            todo.remove();
+        })
     }
-    else
-    {
-        document.querySelector('#taskList').innerHTML = '';
-        document.querySelector('#deleteTask').innerHTML = '';
+
+    //for check
+    if(item.classList[0]==="chk-btn"){
+        const todo=item.parentElement;
+        todo.classList.toggle('completed');
     }
 }
-
-//deleting tasks
-function deleteTask() {
-    let del = document.getElementById('deleteTask');
-    let i= del.selectedIndex;
-    tasks.splice(i,1);
-    displayTask();      //displaying tasks after deleting
-}
-
-
-

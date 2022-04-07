@@ -1,0 +1,318 @@
+body{
+    background-color: white;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Andada Pro', serif;
+    font-size: 35px;
+    width:max-content;
+    color:purple;
+    margin:0;
+}
+
+p,h3, h2, h4, ul, li, ol li{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header{
+    background-color:#89a8da;
+    text-align: center;
+    
+}
+
+
+.title{
+    color: #0c1b54;
+    padding: 14px;
+    
+}
+
+.navbar{
+    background-color: #0c1b54;
+    padding: 8.8px;
+}
+
+
+.navbar ul{
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.navbar li{
+    list-style-type: none;
+    display: inline;
+}
+
+.navbar li a{
+    display: inline-block;
+    padding: 10px 0px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size:17px;
+    width: 10.5%;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+
+.navbar li a:hover{
+    color:#82eefd;
+    
+}
+
+main{
+    margin-left: 220px;
+    
+}
+
+/* Style the list inside the menu */
+.sidenav {
+    
+    float: left;
+    z-index: -1;
+    height: 100%;
+    width: 250px;
+    background-color: #a1c6e0;
+    overflow: auto;
+    font-family: 'Work Sans', sans-serif;
+}
+.sidenav a{
+    
+    color: white;
+    font-weight: bolder;
+    font-size: large ;
+    text-decoration: none;
+    display: block;
+    
+}
+  
+.sidenav ul {
+    width: 20%;
+    padding: 3px;
+    margin: 3px;
+    
+}
+  
+
+.sidenav li{
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.sidenav a:hover {
+    color: #800080;
+}
+
+main{
+    display: flex;
+}
+
+.sidenav{
+    position: sticky;
+    display: none;
+   
+}
+
+.sidenav{
+    
+}
+
+.wrap1{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-family: 'Andada Pro', serif;
+    font-size: 30px;
+}
+
+
+h3{
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+/* Style the artical */
+.content{
+    font-family: 'Work Sans', sans-serif;  
+    height: auto;
+    image-orientation: left;
+    width: auto;
+    background-color: white;  
+  }
+
+.content{
+    margin-left: 200px;
+    height: auto;
+    width: auto;
+    padding-left: 30px;
+    display: block;
+    background-color: white;
+}
+
+.bus, .air, .rail, .ferry, .car, .public, .cycle{
+    float: right;
+    width:30%;
+    box-shadow: 0 0 5px;
+    margin:0 20px;
+    border-radius: 50%;
+    padding: 5px; 
+    width: 150px;
+    height: 100px; 
+}
+
+.taxi{
+    float: right;
+    width:30%;
+    box-shadow: 0 0 5px;
+    margin-right: 20px;
+    margin-bottom: 1%;
+    border-radius: 50%;
+    padding: 5px; 
+    width: 150px;
+    height: 100px; 
+}
+.type{
+    float:right;
+    box-shadow: 0 0 5px;
+    width: 30%;
+    height: 10%;
+    border-radius: 5%;
+
+}
+.licence{
+    box-shadow: 0 0 5px;
+    width: 35%;
+    height: 8%;
+    border-radius: 5%;
+
+}
+
+.health{
+    box-shadow: 0 0 5px;
+    width: auto;
+    height: 20%;
+    
+}
+
+.bandScaleImg{
+    margin: 5px 10px;
+}
+
+footer{
+    display: inline-block;
+    background-color: #89a8da;
+    color:#0c1b54;
+    text-align: center;
+}
+
+@media only screen and (min-device-width : 768px){
+
+    main{
+        display: flex;
+    }
+
+    .sidenav {
+        display: block;
+        height: 600px;
+        width:200px;
+        background-color: #a1c6e0;
+        overflow-x: hidden;
+        padding-top: 120px;
+    }
+
+    .sidenav ul{
+        list-style-type: none;
+    }
+
+    .sidenav a {
+        
+        padding: 10px 7px ;
+        text-decoration: none;
+        font-weight: bold;
+        color: #0c1b54;
+        display: block;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 1em;
+    }
+
+    .sidenav a:hover {
+        color: #800080;
+    }
+
+    .navbar ul{
+        display: inline;
+    }
+
+    .navbar{
+        height: 3em;
+
+    }
+
+    .navbar li{
+        display: inline;
+    }
+
+    .navbar li a {
+        display: inline-block;
+    }
+
+    .wrap1{
+        overflow: auto ;
+        height:620px;
+    }
+    .content{
+        width: auto;
+        margin-left: 10px;
+       
+    }
+    .header{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header,.h1{
+        text-align: center;
+    }
+}
+@media only screen and (min-width : 1024px){
+
+    .wrap1{
+        margin-top: 98px;
+        }
+
+    .content{
+        
+        margin-left: 220px;
+        
+    }
+
+    .h1{
+        text-align: center;
+    }
+
+    .type{
+        width: 350px;
+        height: 350px;
+        margin-right: 2em;
+    }
+    .title{
+        background-color: #89a8da;
+        text-align: center;
+        height: 85px;
+        position: sticky;
+    }
+}
+
+
+	

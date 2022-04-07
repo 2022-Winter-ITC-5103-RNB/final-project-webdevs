@@ -1,0 +1,49 @@
+.consent a{
+    margin-top: 15px;
+    margin-left: 13px;
+}
+
+.consent{
+    display: flex;
+}
+
+.consent button {
+    background-color: #6faedb;
+    border: none;
+    color: white;
+    padding: 2px 8px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+
+  @media only screen and (min-width : 768px){
+
+    .sidenav3 {
+        display: block;
+        height: auto;
+        width:40%;
+        background-color: #a1c6e0;
+        overflow-x: hidden;
+        padding-top: 20px;
+  
+    }
+  
+    .sidenav3 ul{
+        list-style-type: none;
+  
+    }
+  
+    .sidenav3 a {
+        padding: 10px 7px ;
+        text-decoration: none;
+        font-weight: bold;
+        color: #0c1b54;
+        display: block;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 1em;
+  
+    }
+    .sidenav3 a:hover {
+        color: #800080;
+    }
+}

@@ -1,0 +1,214 @@
+body {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+p,
+h3,
+ul li,
+ol li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header {
+    background-color: #89a8da;
+    text-align: center;
+    height: 80px;
+}
+
+.title {
+    color: #0c1b54;
+    padding: 10px;
+}
+
+.navbar {
+    background-color: #0c1b54;
+    height: 3em;
+    padding: 7px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: inline;
+    font-weight: bold;
+}
+
+.navbar li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px 0px;
+}
+
+.navbar li a {
+    display: inline-block;
+    padding: 15px 0px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    width: 11%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding: 0.7em 0px;
+}
+
+.navbar li a:hover {
+    color: #82eefd;
+}
+
+main {
+    display: flex;
+}
+
+.sidenav {
+    display: none;
+}
+
+.wrap1 {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    height: 590px;
+}
+
+.content {
+    margin-left: 10px;
+    background-color: white;
+}
+
+.PageTitle {
+    width: max-content;
+    color: purple;
+    font-size: 40px;
+}
+
+.section1,
+.section2,
+.section3,
+.section4 {
+    padding-bottom: 30px;
+}
+
+.section5 {
+    font-size: 25px;
+    font-weight: 550;
+}
+
+.container1,
+.container3 {
+    font-size: 25px;
+    font-weight: 550;
+}
+
+.container2,
+.container4 {
+    font-size: 25px;
+    font-weight: 550;
+}
+
+.subheading {
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.subheading a {
+    text-decoration: none;
+    color: #4c81a9;
+}
+
+.subheading a:hover {
+    color: #800080;
+}
+
+.fourParts li a {
+    text-decoration: none;
+    color: #4c81a9;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+
+.fourParts li a:hover {
+    color: #800080;
+}
+
+.ieltsImg,
+.PvsCieltsImg,
+.AvsGieltsImg,
+.partsIeltsImg {
+    width: 240px;
+    height: 240px;
+    box-shadow: 0 0 10px;
+    margin: 0 20px;
+}
+
+footer {
+    display: inline-block;
+    background-color: #89a8da;
+    color: #0c1b54;
+    text-align: center;
+}
+
+@media only screen and (min-device-width: 768px) {
+    .sidenav {
+        display: block;
+        height: 570px;
+        width: 570px;
+        background-color: #a1c6e0;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+    .sidenav ul {
+        list-style-type: none;
+    }
+    .sidenav a {
+        padding: 10px 7px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #0c1b54;
+        display: block;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 1em;
+    }
+    .sidenav a:hover {
+        color: #800080;
+    }
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+}
+
+@media only screen and (min-device-width: 1024px) {
+    .section1,
+    .section2,
+    .section3,
+    .section4 {
+        float: left;
+        display: flex;
+    }
+    .ieltsImg,
+    .PvsCieltsImg,
+    .AvsGieltsImg,
+    .partsIeltsImg {
+        width: 30%;
+    }
+}

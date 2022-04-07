@@ -1,19 +1,23 @@
-# Assignment Name: : Project task phase 1
+# Assignment Name: : Project task phase 2
 
-## Name: Meet Ankitkumar Gandhi
+## Team Name: WebDebvs
 
-## Student Number: N01511515
+## Team Members:
+
+# Meet Gandhi :         N01511515
+# Rudresh Jasani :      N01615810
+# Ansil Mangukiya :     N01515657
+# Dhruvi Rajput :       N01496176
+# Yatri Patel :         N01511061
+
+## Project Name:  Study In Canada
 
 ## Tasks
 
-- [X]  responsive web page with html , css and js
+- [X]  responsive web pages with html , css and js
 
 ## Leaning curve and challenges
 
 - [x] responsive web design
 
-
-## Resources
-
-- [x]   https://www.w3schools.com/css/css_rwd_mediaqueries.asp
 
