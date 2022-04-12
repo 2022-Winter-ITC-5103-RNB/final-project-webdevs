@@ -11,6 +11,8 @@
     <link rel="icon" href="/assets/PR/favicon.ico" >
     <link rel="stylesheet" href="/CSS/PR/search.css">
     <script src="/JS/PR/search.js"></script>
+    <script src="/JS/PR/date.js"></script>
+
     <!-- chatbox -->
     <link rel="stylesheet" href="/CSS/PR/chatbox.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/CSS/PR/font-awesome.min.css">
@@ -18,7 +20,6 @@
 </head>
 
 <body>
-
     <div class="wrap">
 
         <header>
@@ -48,6 +49,7 @@
                     <li><a href="/HTML/PR/eligibility.html">Eligibility</a></li>
                     <li><a href="#HowtoAppyl">How to apply PR?</a></li>
                     <li><a href="#AfterPR">After PR</a></li>
+                    <li class="date"><script> showDate(); </script></li>
                     <li><input type="text" placeholder="search" id="searchvalue" onkeyup="filter()"></li>
                     
                 </ul>
@@ -59,7 +61,7 @@
 
                     <!-- Meaning of PR -->
                 <h2>What is Permenent Residents (PR)?<h2>
-                    <p>
+                    <p class="small">
                         In simple term, permenent residents are those people who can live and work in canada without any time constraint.
                         However, these individuals are citizens of othe countries. PR status can be obtained by applying to the immigraton
                         department of the Canada but there are certain rules and regulation necesitate to be fullfill. PR holder person
@@ -229,17 +231,20 @@
                     <ul class="prospr">
                         <li>Individual will be bounded to live in a province for certain time period.</li>
                         <li>This programs requires more processing time.</li>
-                        <li>Some province requires an applicant to have job to be selected for program.0.
+                        <li>Some province requires an applicant to have job to be selected for program.
     
                         </li>
                     </ul>
+                    
                 </section>
 
                 
 
             </div>
+            
 
         </main>
+        
 
     </div>
 
@@ -298,5 +303,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="/JS/PR/response.js"></script>
 <script src="/JS/PR/chatbox.js"></script>
+<script src="/JS/PR/feature3.js"></script>
+<script src="/JS/PR/norightclick.js"></script>
+
+
+
 
 </html>

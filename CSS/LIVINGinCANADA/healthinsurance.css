@@ -68,7 +68,7 @@ body{
 
 h1{
     font-family: 'Andada Pro', serif;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 p,h3,ul li, ol li{
@@ -86,7 +86,7 @@ p,h3,ul li, ol li{
 header{
     background-color:#89a8da;
     text-align: center;
-    height:80px;
+    height:100px;
 }
 
 .title{
