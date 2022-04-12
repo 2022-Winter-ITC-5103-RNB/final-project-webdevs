@@ -170,7 +170,13 @@ footer{
 	display: none;
 	justify-content: center;
 	align-items: center;
+}
 
+.after-submitting p{
+    text-align: center;
+    padding: 80px;
+    color:darkblue;
+    font-weight: 700;
 }
 
 .modal-contents, .box-content {
@@ -183,6 +189,10 @@ footer{
     padding:0;
     position: relative;
 	border-radius: 4px;
+}
+
+.box-content{
+    background-color: rgb(121, 184, 236);
 }
 
 input {
@@ -207,6 +217,9 @@ input {
 	color: #666;
 }
 
+.nameValidation,.emailValidation{
+    border-color: red;
+}
 
 @media only screen and (min-width : 768px){
 
