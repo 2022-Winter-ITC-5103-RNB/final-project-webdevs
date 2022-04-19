@@ -27,6 +27,41 @@
 - [x] responsive web design
 - [x] To Place note at proper place in departure page
 
+## Meet Tasks
+
+- [X]  Created IELTS section
+
+## Meet Javascript
+
+- [X] IELTS's page : Created Dynamic ToDo list
+- [X] IELTS's A vs G page : Created model box using form validation
+- [X] IELTS's Listening page : Created Image Slider
+
+## Rudresh Leaning curve and challenges
+
+- [x] responsive web design
+- [x] To Place note at proper place in departure page
+
+## Ansil Tasks
+
+- [X]  Created PR Section
+
+## Ansil Javascript
+
+- [X] PR page : Chatbot 
+- [X]         : Preloading images
+- [X]         : Date function for current date
+- [X]         : Search button
+- [X]         : Disabling cut copy paste for piracy issues
+- [X]         : Disabling context menu for code copyright purpose 
+
+## Ansil Leaning curve and challenges
+
+- [x] responsive pages 
+- [x] creating chatbot
+- [x] preloading images for faster response
+- [x] disabling contect menu
+
 ## Yatri Tasks
 
 - [X]  Create Student Life Section
@@ -41,6 +76,22 @@
 
 - [x] responsive web design
 - [x] Validating Form and display Error
+
+## Dhruvi Tasks
+
+- [X] Create Live in Canada Section
+
+## Dhruvi Javascript
+
+- [X] Transportation Page: Created a search bar on top of the page for user's easy navigation
+- [X] Health insurance Page: Created a slider for images
+- [X] Driving License Page: Created chatbot on the page
+
+
+## Dhruvi Leaning curve and challenges
+
+- [x] responsive web design
+- [x] For making the chatbot working properly
 
 
 

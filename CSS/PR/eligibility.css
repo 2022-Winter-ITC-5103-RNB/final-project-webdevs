@@ -14,7 +14,11 @@ p{
     font-weight: lighter;
     font-size: large;
 }
-
+ 
+h3
+{
+    font-size: large;
+}
 
 
 .prospr li{

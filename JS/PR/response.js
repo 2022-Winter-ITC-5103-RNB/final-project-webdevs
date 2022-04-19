@@ -1,19 +1,21 @@
 function getBotResponse(input) {
-   //simple Gratting
-    if (input == "Contact") {
+   //simple response
+    if (input == "contact") {
         return "support.studyInCanada@gmail.com";
-    } else if (input == "How are you?") {
+    } 
+    else if (input == "How are you?") {
         return "I'm great. What about you sir";
-    } else if (input == "help") {
+    } 
+    else if (input == "help") {
         return "How can i help you sir? Please type your issue.";
     }
-
-    // Simple responses
-    if (input == "hello") {
+    else if (input == "hello" || input=="hi") {
         return "Hello there!";
-    } else if (input == "goodbye" || input == "bye" ) {
+    } 
+    else if (input == "goodbye" || input == "bye" ) {
         return "Talk to you later!";
-    } else {
+    }
+    else {
         return "Try asking something else!";
     }
 }
