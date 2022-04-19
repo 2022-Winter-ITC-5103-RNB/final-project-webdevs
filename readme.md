@@ -12,12 +12,20 @@
 
 ## Project Name:  Study In Canada
 
-## Tasks
+## Rudresh Tasks
 
-- [X]  responsive web pages with html , css and js
+- [X]  Create Visa Section
 
-## Leaning curve and challenges
+## Rudresh Javascript
+
+- [X] Before Departure Page : Created Note for user to create custom note by thier own
+- [X] Upon Arrival Page : Created 3D Flip card that flips with diffent content
+- [X] Visa FAQ Page :  Created FAQ open and collapse functionality
+
+## Rudresh Leaning curve and challenges
 
 - [x] responsive web design
+- [x] To Place note at proper place in departure page
+
 
 
