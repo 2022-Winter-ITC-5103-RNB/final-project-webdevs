@@ -1,26 +1,50 @@
+html,
 body {
-    background-color: #ffffff;
-    box-shadow: 0 0 10px;
-    margin: auto;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: white;
+    box-shadow: 0 0 5px;
 }
 
 h1 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Andada Pro', serif;
     font-size: 30px;
+}
+
+#clock {
+    font-size: 30px;
+    width: 200px;
+    text-align: center;
+    float: right;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
 }
 
 p,
 h3,
 ul li,
 ol li {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
     font-size: 20px;
+    padding-left: 20px;
+}
+
+.qt {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: darkblue;
+    width: auto;
 }
 
 .wrap {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: auto;
 }
 
 header {
@@ -36,31 +60,28 @@ header {
 
 .navbar {
     background-color: #0c1b54;
-    height: 3em;
     padding: 7px;
+    width: auto;
 }
 
 .navbar ul {
     list-style-type: none;
-    display: inline;
     font-weight: bold;
 }
 
 .navbar li {
     list-style-type: none;
-    display: inline;
     padding: 10px 0px;
 }
 
 .navbar li a {
-    display: inline-block;
     padding: 15px 0px;
     color: #ffffff;
     text-decoration: none;
     font-size: 18px;
     width: 11%;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-weight: bold;
     padding: 0.7em 0px;
 }
@@ -80,80 +101,56 @@ main {
 .wrap1 {
     display: flex;
     flex-direction: column;
-    overflow: auto;
-    height: 590px;
+    width: auto;
 }
 
 .content {
-    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
     background-color: white;
+    width: auto;
 }
 
 .PageTitle {
-    width: max-content;
+    width: auto;
     color: purple;
     font-size: 40px;
+    margin-left: 10px;
 }
 
-.section1,
-.section2,
-.section3,
-.section4 {
-    padding-bottom: 30px;
-}
-
-.section5 {
+.container1 {
     font-size: 25px;
     font-weight: 550;
+    padding: 0px 15px;
+    padding-bottom: 20px;
 }
 
-.container1,
-.container3 {
-    font-size: 25px;
-    font-weight: 550;
+.container1 img {
+    padding-left: 20px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
 }
 
-.container2,
-.container4 {
-    font-size: 25px;
-    font-weight: 550;
+.container1 .section1 {
+    width: 80%;
+    border-left-style: solid;
+    border-left-color: rgb(0, 57, 133);
+    background-color: #d6e0e7;
+    font-style: italic;
+    font-size: small;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .subheading {
-    color: black;
+    color: rgb(0, 57, 133);
     font-size: 30px;
     font-weight: 900;
     font-family: 'Hind Siliguri', sans-serif;
-}
-
-.subheading a {
-    text-decoration: none;
-    color: #4c81a9;
-}
-
-.subheading a:hover {
-    color: #800080;
-}
-
-.fourParts li a {
-    text-decoration: none;
-    color: #4c81a9;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: bold;
-}
-
-.fourParts li a:hover {
-    color: #800080;
-}
-
-.ieltsImg,
-.PvsCieltsImg,
-.AvsGieltsImg,
-.partsIeltsImg {
-    width: 240px;
-    height: 240px;
-    box-shadow: 0 0 10px;
-    margin: 0 20px;
+    margin-left: 20px;
 }
 
 footer {
@@ -163,11 +160,55 @@ footer {
     text-align: center;
 }
 
-@media only screen and (min-device-width: 768px) {
+.highlight {
+    color: red;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 80%;
+    border: 2px solid rgb(63, 63, 172);
+    align-content: center;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 8px;
+    font-size: 20px;
+    border: 2px solid #a1c6e0;
+}
+
+th:first-child,
+td:first-child {
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #89a8da;
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        display: flex;
+    }
+    .navbar ul {
+        display: inline;
+    }
+    .navbar {
+        height: 3em;
+    }
+    .navbar li {
+        display: inline;
+    }
+    .navbar li a {
+        display: inline-block;
+    }
     .sidenav {
         display: block;
-        height: 570px;
-        width: 570px;
+        height: 590px;
+        width: 850px;
         background-color: #a1c6e0;
         overflow-x: hidden;
         padding-top: 20px;
@@ -187,27 +228,18 @@ footer {
     .sidenav a:hover {
         color: #800080;
     }
-}
-
-table,
-th,
-td {
-    border: 1px solid black;
-    padding-bottom: 20px;
-}
-
-@media only screen and (min-device-width: 1024px) {
-    .section1,
-    .section2,
-    .section3,
-    .section4 {
-        float: left;
-        display: flex;
+    .wrap1 {
+        overflow: auto;
+        height: 610px;
     }
-    .ieltsImg,
-    .PvsCieltsImg,
-    .AvsGieltsImg,
-    .partsIeltsImg {
-        width: 30%;
+    .section1,
+    .section2 {
+        padding-right: 20px;
+    }
+    .container3 {
+        padding-right: 20px;
+    }
+    .wrap {
+        height: 100%;
     }
 }
