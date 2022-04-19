@@ -6,16 +6,16 @@
 }
 
 body {
-  background-color: #7bdaf3;
+
   font-family: 'Poppins', sans-serif;
-  display: flex;
+   display: flex;
   flex-wrap: wrap;
-  margin: 0;
-  padding-top: 3rem;
+  margin: 0; 
+  
 }
 
 .add {
-  position: fixed;
+ 
   top: 1rem;
   right: 1rem;
   background-color: #9ec862;
@@ -65,10 +65,28 @@ body {
   padding: 20px;
 }
 
-/* .main {
+.main {
   padding: 20px;
-} */
+}
 
 .hidden {
   display: none;
 }
+
+.content img{
+  max-width: 90%;
+  height: auto;
+}
+
+@media only screen and (min-width : 768px){
+
+  .sidenav {
+      display: block;
+      height: auto;
+      width:30%;
+      background-color: #a1c6e0;
+      overflow-x: hidden;
+      padding-top: 20px;
+
+  }
+  }

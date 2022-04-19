@@ -146,7 +146,7 @@ form.example input[type=text] {
   }
   
   #myInput {
-    background-image: url('../assest/');
+    background-image: url('/assets/LIVINGinCANADA/');
     background-position: 10px 12px;
     background-repeat: no-repeat;
     width: 94%;
