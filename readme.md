@@ -42,5 +42,21 @@
 - [x] responsive web design
 - [x] Validating Form and display Error
 
+## Dhruvi Tasks
+
+- [X] Create Live in Canada Section
+
+## Dhruvi Javascript
+
+- [X] Transportation Page: Created a search bar on top of the page for user's easy navigation
+- [X] Health insurance Page: Created a slider for images
+- [X] Driving License Page: Created chatbot on the page
+
+
+## Dhruvi Leaning curve and challenges
+
+- [x] responsive web design
+- [x] For making the chatbot working properly
+
 
 
