@@ -27,5 +27,20 @@
 - [x] responsive web design
 - [x] To Place note at proper place in departure page
 
+## Yatri Tasks
+
+- [X]  Create Student Life Section
+
+## Yatri Javascript
+
+- [X] Winter Shopping Page : Created A Digital Clock
+- [X] Accommodation Page :Created form with validation 
+- [X] Job Option Page :  Created Easy Search Access
+
+## Yatri Leaning curve and challenges
+
+- [x] responsive web design
+- [x] Validating Form and display Error
+
 
 

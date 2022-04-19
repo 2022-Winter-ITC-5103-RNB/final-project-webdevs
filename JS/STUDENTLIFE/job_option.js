@@ -1,6 +1,14 @@
-//This function is use for add a new task in array
-function addtask() {
+// JavaScript code
+function search_job_title() {
+    let input = document.getElementById('searchbar').value
+    input = input.toLowerCase();
+    let x = document.getElementsByClassName('job');
 
-    window.open("https://forms.gle/pPVMBFFggb87mTYq8");
-
+    for (i = 0; i < x.length; i++) {
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display = "none";
+        } else {
+            x[i].style.display = "list-item";
+        }
+    }
 }
